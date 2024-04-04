@@ -92,9 +92,11 @@ nav {
 
 #testimoni {
   background-color: #ffe2e6;
+  height: 100vh;
   border: 0;
   border-radius: 20px;
   padding: 20px;
+  overflow-y:hidden;
 }
 
 #contact {

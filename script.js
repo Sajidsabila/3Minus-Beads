@@ -44,11 +44,11 @@ fetch('product.json')  // MENGAMBIL DATA product.json
         contain: true, // Menambahkan opsi contain
       });
     
-     const carousel =  $(".main-carousel").flickity({
-        // options
-        cellAlign: "left",
+      $flickity = new Flickity('.main-carousel1', {
+        cellAlign: 'left',
         wrapAround: true,
         freeScroll: true,
+        contain: true, // Menambahkan opsi contain
       });
     })
 
